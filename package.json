@@ -1,0 +1,52 @@
+{
+  "name": "fancytextgenie",
+  "version": "1.0.0",
+  "description": "Convert plain text into 22 fancy Unicode font styles: bold, cursive, gothic, bubble, small caps, upside down and more. Zero dependencies.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "bin": {
+    "fancytextgenie": "bin/fancytextgenie.js"
+  },
+  "files": [
+    "src",
+    "bin"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "fancy-text",
+    "fancy-text-generator",
+    "unicode",
+    "fonts",
+    "font-generator",
+    "cursive",
+    "bold-text",
+    "small-caps",
+    "upside-down-text",
+    "instagram-fonts",
+    "text-converter",
+    "mathematical-alphanumeric-symbols"
+  ],
+  "homepage": "https://fancytextgenie.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancytextgenie/Fancy-Text-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fancytextgenie/Fancy-Text-Generator/issues"
+  },
+  "author": "FancyTextGenie (https://fancytextgenie.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
